@@ -1,0 +1,12 @@
+											// ॥ श्री गणेशाय नमः ॥ 
+
+import { configureStore } from "@reduxjs/toolkit";
+import CartSlice from "./slices/CartSlice";
+
+
+
+export const store = configureStore({
+    reducer:{
+        cart: CartSlice
+    }
+})
